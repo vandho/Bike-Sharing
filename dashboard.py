@@ -34,7 +34,7 @@ def create_day_cuaca_casual_df(df):
     
     return day_cuaca_casual_df
 
-main_df = pd.read_csv("day.csv")
+main_df = pd.read_csv("data\day.csv")
 
 with st.sidebar:
     st.image("bicycle.png")
